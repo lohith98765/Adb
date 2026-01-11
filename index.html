@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADBCTRL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>ADBCTRL</h1>
+<p>Advanced Device Controller</p>
+
+<ul>
+    <li>📱 Device Manager</li>
+    <li>🎮 ADB Controls</li>
+    <li>📁 File Manager</li>
+    <li>🤖 Automation</li>
+    <li>🔐 Security</li>
+    <li>📊 Logs</li>
+</ul>
+
+<p><strong>Server</strong> ONLINE</p>
+<p><strong>Devices</strong> 0</p>
+
+<hr>
+
+<h2>Device Manager</h2>
+<button>🔄 Refresh</button>
+
+<h3>Connected Devices</h3>
+
+<hr>
+
+<h3>Device Controls</h3>
+<label>Select a device</label><br>
+<select>
+    <option>Select device</option>
+</select>
+
+<h4>Quick Actions</h4>
+<button>📸 Screenshot</button>
+<button>🎥 Screen Record</button>
+<button>🔒 Lock</button>
+<button>🔓 Unlock</button>
+
+<h4>Input Controls</h4>
+
+<p>Text Input</p>
+<input type="text" placeholder="Enter text to input">
+<button>Send</button>
+
+<p>Tap Coordinates</p>
+<input type="number" placeholder="X">
+<input type="number" placeholder="Y">
+<button>Tap</button>
+
+<p>Swipe Coordinates</p>
+<input type="number" placeholder="X1">
+<input type="number" placeholder="Y1">
+<input type="number" placeholder="X2">
+<input type="number" placeholder="Y2">
+<button>Swipe</button>
+
+<h4>Key Events</h4>
+<button>🏠 Home</button>
+<button>⬅️ Back</button>
+<button>⬜ Recent</button>
+<button>☰ Menu</button>
+
+<h4>App & URL</h4>
+<p>Open URL</p>
+<input type="text" placeholder="https://example.com">
+<button>Open</button>
+
+<p>Open App (Package Name)</p>
+<input type="text" placeholder="com.example.app">
+<button>Open</button>
+
+<h4>System Actions</h4>
+<button>🔄 Reboot</button>
+<button>⏹️ Shutdown</button>
+
+<h4>Shell Command</h4>
+<p>Execute Command</p>
+<input type="text" placeholder="Enter shell command">
+<button>Execute</button>
+
+<hr>
+
+<h2>File Manager</h2>
+<label>Select a device</label><br>
+<select>
+    <option>Select device</option>
+</select>
+
+<p>/</p>
+<button>⬆️ Upload</button>
+<button>🔄 Refresh</button>
+
+<hr>
+
+<h2>Automation Profiles</h2>
+<label>Select a device</label><br>
+<select>
+    <option>Select device</option>
+</select>
+
+<h3>Profiles</h3>
+<button>➕ New Profile</button>
+
+<h3>Profile Editor</h3>
+<p>Profile Name</p>
+<input type="text" placeholder="Enter profile name">
+
+<h4>Add Command</h4>
+<select>
+    <option>Select command type</option>
+    <option>Shell Command</option>
+    <option>Tap</option>
+    <option>Swipe</option>
+    <option>Key Event</option>
+    <option>Text Input</option>
+    <option>Open URL</option>
+    <option>Open App</option>
+    <option>Screenshot</option>
+    <option>Screen Record</option>
+    <option>Lock</option>
+    <option>Unlock</option>
+</select>
+
+<br><br>
+<button>Add Command</button>
+<br><br>
+<button>Save Profile</button>
+<button>Run Profile</button>
+
+<hr>
+
+<h2>Security Settings</h2>
+
+<h3>Allowed Commands</h3>
+<input type="text" placeholder="Enter command name">
+<button>Add</button>
+
+<h3>Allowed Shell Commands</h3>
+<input type="text" placeholder="Enter shell command">
+<button>Add</button>
+
+<h3>Forbidden Shell Commands</h3>
+<input type="text" placeholder="Enter shell command pattern">
+<button>Add</button>
+
+<h3>Device Whitelist</h3>
+<input type="text" placeholder="Enter device ID">
+<button>Add</button>
+
+<hr>
+
+<h2>System Logs</h2>
+<select>
+    <option>System Logs</option>
+</select>
+
+<hr>
+
+<h2>Confirm Action</h2>
+<p>Are you sure you want to perform this action?</p>
+<button>Cancel</button>
+<button>Confirm</button>
+
+<hr>
+
+<h2>Screenshot</h2>
+<button>Download</button>
+
+<hr>
+
+<h2>Screen Recording</h2>
+<label>Duration (seconds)</label>
+<input type="number" value="30">
+<button>Start Recording</button>
+
+</body>
+</html>
